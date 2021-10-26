@@ -124,6 +124,7 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
@@ -138,7 +139,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 1s ease-in;
+    transition: all 0.5s ease-in-out;
 
     /* Hide navigation */
     /* Allows NO transition at all */
